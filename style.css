@@ -168,7 +168,7 @@ nav ul li a :hover {
 }
 
 .card i {
-    font-size: 80px;
+    font-size: 60px;
     display: block;
     text-align: center;
     margin: 25px 0px;
@@ -205,7 +205,7 @@ h5 {
 
 .front-end>ol>li {
     font-size: 16px;
-    line-height: 26px;
+    line-height: 20px;
     margin-bottom: 25px;
 }
 
@@ -215,9 +215,21 @@ h5 {
     margin-bottom: 25px;
 }
 
+.back-end>ol>li {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 25px;
+}
+
 .dp {
     font-size: 16px;
-    line-height: 27px;
+    line-height: 20px;
+    margin-bottom: 25px;
+}
+
+.db>ol>li {
+    font-size: 16px;
+    line-height: 20px;
     margin-bottom: 25px;
 }
 
@@ -256,8 +268,8 @@ h5 {
     color: blue;
 }
 
-.social{
-    width: 100%;
+.social {
+    width: 20%;
     position: relative;
     height: 400px;
     display: flex;
@@ -266,8 +278,20 @@ h5 {
     justify-content: center;
 }
 
-footer p:nth-child(1){
+.social a{
+    font-size: 50px;
+}
+
+footer p:nth-child(1) {
     font-size: 30px;
     font-weight: bold;
     margin-bottom: 25px;
+}
+
+footer p:nth-child(2) {
+    color: white;
+    font-size: 17px;
+    width: 500px;
+    text-align: center;
+    line-height: 26px;
 }
